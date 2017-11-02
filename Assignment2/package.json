@@ -1,6 +1,6 @@
 {
   "name": "assignment2",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "module to keep track of all current connected clients to web server",
   "main": "clients.js",
   "scripts": {

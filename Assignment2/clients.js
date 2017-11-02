@@ -8,17 +8,17 @@ returns array of clients
 
 
 var clients = {};
-
-exports = function clientContained(id) {
-	if(id in clients) {
-		return true;
-	}
-	else {
+module.exports = {
+	getClients: function() {
+		return clients;
+		},
+	addClients: function(id,webaddress) {
+		clients[id] = webaddress;
+	},
+	clientContained: function(id) {
+		if(id in clients) {
+			return true
+		}
 		return false;
 	}
 }
-exports = function addClients(id,webaddress) {
-	clients[id] = webaddress;
-}
-
-exports = function getClients() {return clients;}
