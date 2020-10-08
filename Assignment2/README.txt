@@ -1,5 +1,4 @@
-Developed by: Kavan Salehi, Student ID: 101046945.
-Developed by Danilo Orozco, Student ID: 101035548.
+
 Developed in Operating System: Windows 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 This assignment is a shared canvas drawing app where multiple clients can connect and draw an image together on a shared canvas.
